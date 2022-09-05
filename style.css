@@ -44,12 +44,32 @@ body {
 .main-ctn {
   height: 500px;
   color: #ffffff;
-  text-align: center;
+  text-align:center;
   background: url('./assets/wifi-moon.webp');
   background-size: cover;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content:center;
+  align-items:center;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+.img-appolon{
+  border-radius: 10px;
+  margin-top: 250px;
+  margin-left:150px;
+}
+.landing{
+  font-family: Arial, sans-serif;
+  font-size:larger;
+  color: darkgrey;
+  text-align:left;
+  margin-left: 92px;
+  margin-top: -61px;
+}
+.apollo-17{
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  text-align:left;
+  margin-left: 92px;
+  margin-top: -20px;
 }
