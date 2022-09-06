@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #333;
+  background-color: rgb(29, 29, 29);
   margin: 20px 20px 20px 20px;
 }
 
@@ -72,4 +72,26 @@ body {
   text-align:left;
   margin-left: 92px;
   margin-top: -20px;
+}
+.apollo-text{
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  margin-left: 92px;
+  background-color: #2d2d2d;
+  width:fit-content;
+  border-color: #2d2d2d; 
+  border-radius: 10px;
+  padding: 10px; 
+  margin-bottom: -40px;
+}
+
+.order-btn{
+  margin-left: 100px;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  background-color:#6456ff;
+  border-color: #6456ff; 
+  border-radius: 10px;
+  padding: 10px; 
 }
