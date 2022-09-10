@@ -42,6 +42,8 @@ body {
 }
 
 .main-ctn {
+  font-family: Arial, sans-serif;
+  text-shadow: 1px 1px 2px black;
   height: 500px;
   color: #ffffff;
   text-align:center;
@@ -55,7 +57,7 @@ body {
 }
 .img-appolon{
   border-radius: 10px;
-  margin-top: 250px;
+  margin-top: -500px;
   margin-left:150px;
 }
 .landing{
@@ -94,4 +96,36 @@ body {
   border-color: #6456ff; 
   border-radius: 10px;
   padding: 10px; 
+}
+.moon-img {
+  margin-left: 800px;
+  margin-top: 300px;
+}
+.text2{
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  margin-left:92px;
+  margin-top:200px;
+}
+.menu2 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.menu2 li {
+  margin: auto 10px;
+  list-style-type: none;
+}
+.menu2 li a{
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+  border: 1px solid white;
+  border-radius:10px;
+  padding: 10px;
+}
+.menu2 li a:hover {
+  color: #fff;
+  background: #6456ff;
 }
