@@ -62,8 +62,7 @@
     <div class="about-moon">
       <div class="info-ctn">
         <div class="apolo-ctn">
-          <img src="./assets/apollon-17.png" alt="apollon-17"
-          style="width: 350px;border-radius: 10px;margin-left: 50px;">
+          <img src="./assets/apollon-17.png" class="apollon-17" alt="apollon-17">
         </div>
         <span class="landing-site">landing site<br></span>
         <span class="station-apolo">Station<br>Apolo 17</span>
@@ -87,8 +86,8 @@
           <button class="buy">order tickets</button>
         </div>
       </div>
-      <div class="apolo-ctn">
-        <img src="./assets/moon.png" alt="Moon"style="margin-left:230px;margin-top:80px;">
+      <div class="apolo-ctnn">
+        <img src="./assets/moon.png" class="Moon" alt="Moon">
       </div>
     </div>
     <div class="fqa">
@@ -128,6 +127,19 @@
         <button>More</button>
       </div>
     </div>
+    <script>
+			for(var i=1;i<=8;i++){
+				for(var j=1;j<=8;j++){
+					if((i+j)%2==0){
+						document.write("<div class='div01'></div>");
+					}
+					else{
+						document.write("<div class='div02'></div>");
+					}
+				}
+			}
+		</script>
+
   </main>
 
   <footer>
